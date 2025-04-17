@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     if type == None:
         type = "beer"
 
-    if drinks >= 9:
+    if drinks >= 999:
         if type != 'slash':
             return {
                 'statusCode': 200,
